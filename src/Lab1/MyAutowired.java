@@ -10,5 +10,4 @@ import java.lang.annotation.RetentionPolicy;
 //type is class
 
 public @interface MyAutowired {
-	
 }
