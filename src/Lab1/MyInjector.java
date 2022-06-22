@@ -41,10 +41,10 @@ public class MyInjector {
 		for (Class c : s.findAllClassesUsingClassLoader(myclass)) {
 			System.out.println(c.getSimpleName());
 
-//		Class<?> m = Class.forName(myclass +"."+c.getSimpleName());
-//		Constructor<?> ctor  =  m.getConstructor(String.class);
-//		Object object = ctor.newInstance("Test");
-//		System.out.println(object);
+			//		Class<?> m = Class.forName(myclass +"."+c.getSimpleName());
+			//		Constructor<?> ctor  =  m.getConstructor(String.class);
+			//		Object object = ctor.newInstance("Test");
+			//		System.out.println(object);
 			// System.out.println("HERE
 			// "+c.getClass().isAnnotationPresent(MyAutowired.class));
 

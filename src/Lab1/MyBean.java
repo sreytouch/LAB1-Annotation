@@ -10,5 +10,4 @@ import java.lang.annotation.RetentionPolicy;
 //field is expend variable
 
 public @interface MyBean {
-
 }
